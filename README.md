@@ -2,6 +2,14 @@
 
 An end-to-end advertising spend monitoring and forecasting platform that tracks historical campaign performance, forecasts spend and ROAS for the next 12 months, and recommends optimal budget allocation across channels using time series modeling and machine learning.
 
+> ### 📍 Project Status — In Active Development
+>
+> **Committed so far:** `src/data/generate_ad_data.py`, `src/models/prophet_model.py`
+>
+> **Still to be implemented:** `src/models/train_forecasts.py`, `src/app/dashboard.py`
+>
+> The architecture, setup, and usage sections below describe the target design for this project. Components listed as still to be implemented are tracked in the Roadmap at the end of this README — some setup or usage commands will not run until those land.
+
 ## Overview
 
 Marketing teams need to justify every dollar of ad spend and forecast budgets accurately for financial planning. This project ingests historical advertising data across channels (Google Ads, Meta, LinkedIn, programmatic), builds time series forecast models, and delivers interactive dashboards showing spend trends, ROAS predictions, seasonal patterns, and optimal budget allocation recommendations.
@@ -72,3 +80,16 @@ streamlit run src/app/dashboard.py
         - ## License
        
         - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🗺️ Roadmap
+
+**Built**
+
+- [x] `src/data/generate_ad_data.py`
+- [x] `src/models/prophet_model.py`
+
+**Planned**
+
+- [ ] `src/models/train_forecasts.py`
+- [ ] `src/app/dashboard.py`
+
